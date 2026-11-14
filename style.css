@@ -1,0 +1,481 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+background: #f9f9fb;
+color: #0c1422;
+overflow-x: hidden;
+line-height: 1.5;
+}
+
+section {
+max-width: 1100px;
+margin: 50px auto;
+padding: 0 20px;
+}
+
+.hero {
+display: table;
+width: 100%;
+table-layout: fixed;
+}
+
+.hero-text, .hero-image {
+display: table-cell;
+vertical-align: top;
+padding: 10px 20px;
+}
+
+.hero-text {
+width: 55%;
+}
+
+.hero-text h1 {
+font-weight: 900;
+font-size: 2.5rem;
+line-height: 1.1;
+margin-bottom: 15px;
+}
+
+.hero-text p {
+color: #5e5e5e;
+max-width: 400px;
+font-weight: 400;
+margin-bottom: 25px;
+}
+
+.buttons button {
+cursor: pointer;
+font-size: 14px;
+padding: 12px 24px;
+margin-right: 12px;
+border-radius: 6px;
+border: 1px solid #ccc;
+font-family: inherit;
+transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+background-color: #000;
+color: #fff;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #635959;
+}
+
+.btn-secondary {
+background-color: #fff;
+color: #5e5e5e;
+border: 1px solid #ddd;
+}
+
+.btn-secondary:hover {
+background-color: #f3f3f3;
+}
+
+.hero-image img {
+width: 100%;
+max-width: 400px;
+border-radius: 12px;
+display: block;
+margin-left: auto;
+}
+
+.why-choose h2 {
+text-align: center;
+font-size: 1.7rem;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.why-choose p {
+text-align: center;
+color: #767676;
+margin-bottom: 40px;
+font-weight: 400;
+}
+
+.features {
+text-align: center;
+font-size: 0; 
+}
+
+.feature {
+display: inline-block;
+width: 30%;
+background-color: #e5f0ff;
+padding: 25px 15px;
+margin: 0 1.66%;
+border-radius: 10px;
+vertical-align: top;
+font-size: 14px;
+color: #0c1422;
+box-sizing: border-box;
+}
+
+.feature h3 {
+margin: 20px 0 10px 0;
+font-weight: 700;
+font-size: 16px;
+}
+
+.feature p {
+font-weight: 400;
+color: #555;
+line-height: 1.4;
+}
+
+.feature .icon {
+font-size: 35px;
+width: 50px;
+height: 50px;
+line-height: 45px;
+display: inline-block;
+border-radius: 10px;
+background-color: #0051ff;
+color: white;   
+font-weight: bold;
+user-select: none;
+}
+
+.feature-blue {
+background-color: #d2e5ff;
+}
+
+.feature-blue .icon {
+background-color: #0051ff;
+}
+
+.feature-green {
+background-color: #c9f0d5;
+}
+
+.feature-green .icon {
+background-color: #00794f;
+border-radius: 50%;
+}
+
+.feature-purple {
+background-color: #ece1fe;
+}
+
+.feature-purple .icon {
+background-color: #7c04e5;
+border-radius: 10px;
+}
+
+.more-than-gym {
+display: table;
+width: 100%;
+table-layout: fixed;
+}
+
+.mtg-image, .mtg-text {
+display: table-cell;
+vertical-align: middle;
+padding: 10px 20px;
+}
+
+.mtg-image {
+width: 45%;
+}
+
+.mtg-image img {
+max-width: 100%;
+border-radius: 12px;
+display: block;
+}
+
+.mtg-text {
+width: 55%;
+}
+
+.mtg-text h2 {
+font-weight: 700;
+font-size: 1.8rem;
+margin-bottom: 20px;
+}
+
+.mtg-text ul {
+list-style: none;
+}
+
+.mtg-text ul li {
+margin-bottom: 15px;
+border-left: 3px solid black;
+padding-left: 12px;
+}
+
+.mtg-text ul li strong {
+font-weight: 700;
+display: block;
+margin-bottom: 5px;
+}
+
+.mtg-text ul li span {
+color: #6e6e6e;
+font-weight: 400;
+font-size: 14px;
+}
+
+.testimonials {
+text-align: center;
+margin-top: 50px;
+}
+
+.testimonials h2 {
+font-weight: 700;
+font-size: 1.8rem;
+margin-bottom: 10px;
+}
+
+.testimonials p {
+margin-bottom: 40px;
+color: #5e5e5e;
+font-weight: 400;
+}
+
+.testimonial-cards {
+font-size: 0;
+margin-bottom: 40px;
+}
+
+.testimonial-card {
+display: inline-block;
+width: 30%;
+background-color: #dff1ff;
+margin: 0 1.66%;
+border-radius: 10px;
+box-sizing: border-box;
+vertical-align: top;
+font-size: 14px;
+padding: 30px;
+text-align: left;
+line-height: 1.4;
+}
+
+.testimonial-card h4 {
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 16px;
+}
+
+.testimonial-card span {
+font-size: 13px;
+font-weight: 600;
+color: #757575;
+display: block;
+margin-bottom: 12px;
+}
+
+.testimonial-card p {
+font-weight: 400;
+color: #3a3a3a;
+}
+
+.testimonial-card .avatar {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: block;
+}
+
+.card-blue {
+background-color: #d2e5ff;
+}
+
+.card-green {
+background-color: #c9f0d5;
+}
+
+.card-purple {
+background-color: #ece1fe;
+}
+
+.stats {
+background-color: rgb(240, 245, 248);
+padding: 15px;
+border-radius: 15px;
+font-size: 0;
+text-align: center;
+
+color: #0c1422;
+}
+
+.stats > div {
+display: inline-block;
+width: 22%;
+margin: 0 1.5%;
+font-weight: 400;
+font-size: 14px;
+}
+
+.stats > div strong {
+font-weight: 900;
+font-size: 23px;
+display: block;
+margin-bottom: 5px;
+}
+
+.contact-form-section {
+text-align: center;
+margin: 60px auto 100px;
+}
+
+.contact-form-section h3 {
+font-weight: 700;
+font-size: 1.2rem;
+margin-bottom: 8px;
+}
+
+.contact-form-section p {
+font-weight: 400;
+color: #7d7d7d;
+margin-bottom: 25px;
+max-width: 320px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.contact-form {
+display: inline-block;
+text-align: left;
+width: 320px;
+font-size: 14px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+resize: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form button {
+background-color: #000;
+color: #fff;
+border: none;
+padding: 12px;
+font-family: inherit;
+width: 100%;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 700;
+transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+background-color: #222;
+}
+
+footer {
+background-color: #0c1422;
+color: #eee;
+padding: 45px 20px 25px;
+font-size: 14px;
+line-height: 1.5;
+}
+
+.footer-container {
+max-width: 1100px;
+margin: 0 auto;
+font-size: 0;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+display: inline-block;
+vertical-align: top;
+box-sizing: border-box;
+font-size: 14px;
+padding: 0 18px;
+}
+
+.footer-about {
+width: 40%;
+}
+
+.footer-about h4,
+.footer-links h4,
+.footer-contact h4 {
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.footer-about p {
+margin-bottom: 12px;
+color: #bbb;
+}
+
+.footer-socials a {
+color: #ddd;
+text-decoration: none;
+font-weight: 600;
+font-size: 13px;
+}
+
+.footer-thelinks ul {
+list-style: none;
+padding-left: 0;
+margin: 0;
+}
+
+.footer-links {
+width: 25%;
+}
+
+.footer-links ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.footer-links ul li {
+margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+color: #bbb;
+text-decoration: none;
+font-weight: 400;
+}
+
+.footer-links ul li a:hover {
+color: #fff;
+}
+
+.footer-contact {
+width: 32%;
+}
+
+.footer-contact p {
+margin-bottom: 8px;
+font-weight: 400;
+color: #bbb;
+}
+
+.footer-bottom {
+margin-top: 25px;
+text-align: center;
+color: #555;
+border-top: 1px solid #222;
+padding-top: 12px;
+}
